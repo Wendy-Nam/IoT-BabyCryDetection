@@ -27,6 +27,11 @@ const double BABY_CRY_FREQ_MAX = 550.0; // Maximum frequency for baby cry (in Hz
 const double INTENSITY_THRESHOLD = 2000.0; // Minimum intensity to consider
 const int MATCH_THRESHOLD = 100; // Number of matches within the frequency range to consider as baby crying
 
+int status = WL_IDLE_STATUS;
+char payload[512];
+unsigned long preMil = 0;
+const long intMil = 5000; 
+
 double vReal[SAMPLES];
 double vImag[SAMPLES];
 arduinoFFT FFT(vReal, vImag, SAMPLES, SAMPLING_FREQUENCY);
