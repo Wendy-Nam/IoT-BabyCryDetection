@@ -1,6 +1,6 @@
 # Baby Crying Detection System
 
-> 한국 항공대학교 (KAU)의 스마트 아기요람 IoT 프로젝트를 위해 개발된 세부 매커니즘.
+> 한국항공대학교 (KAU)의 2023 IoT 과목 프로젝트(스마트 아기요람)를 위해 개발된 세부 매커니즘.
 
 ## 개요
 ESP32 보드(`DOIT ESP32 Devkit V1`)와 사운드 센서(`SZH-EK033`)를 사용하여 아기의 울음소리를 감지하고, AWS IoT Core에 감지 상태를 전송하는 시스템.
