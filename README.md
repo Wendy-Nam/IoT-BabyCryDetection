@@ -7,6 +7,8 @@ This Arduino-based system, using an ESP32 microcontroller(`DOIT ESP32 Devkit V1`
 
 ![제목 없는 디자인](https://github.com/Wendy-Nam/IoT-BabyCryDetection/assets/142412339/c6e6fdbc-da5e-445b-87f8-f025755ffb1c)
 
+This system was developed as part of the [Smart Cradle project](https://github.com/JeongJongMun/IOT-SmartBabyCradle), specifically to implement the baby crying detection logic used in the project.
+
 ## AWS IoT Library
 The system uses the AWS_IOT library from the `arduino-esp32/AWS_IOT` directory in the [ExploreEmbedded Hornbill examples](https://github.com/ExploreEmbedded/Hornbill-Examples) for AWS IoT Core integration. This library facilitates communication between the ESP32 device and AWS IoT Core, allowing for the real-time transmission of baby crying alerts.
 
@@ -36,4 +38,3 @@ The system operates continuously, analyzing ambient sounds. It uses the combinat
 ## Notes
 - Calibrate the `SOUND_THRESHOLD`, `SPIKE_THRESHOLD`, `INTENSITY_THRESHOLD`, and `MATCH_THRESHOLD` according to your specific environment and sensor placement.
 - The system's accuracy depends on the correct calibration and placement of the sound sensor.
-- This system was developed as part of the [Smart Cradle project](https://github.com/JeongJongMun/IOT-SmartBabyCradle), specifically to implement the baby crying detection logic used in the project.
