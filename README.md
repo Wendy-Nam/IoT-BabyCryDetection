@@ -1,5 +1,7 @@
 # Baby Crying Detection System
 
+> Developed as a module for the 'Smart Cradle' IoT Project at KAU in 2023
+
 ## Overview
 This Arduino-based system, using an ESP32 microcontroller(`DOIT ESP32 Devkit V1`) and a sound sensor (`SZH-EK033`), detects when a baby is crying and communicates the detection status to AWS IoT Core. The system employs advanced sound pattern analysis and frequency analysis to accurately identify a baby's cry.
 
