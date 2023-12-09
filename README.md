@@ -33,4 +33,6 @@ The system operates continuously, analyzing ambient sounds. It uses the combinat
 ## Notes
 - Calibrate the `SOUND_THRESHOLD`, `SPIKE_THRESHOLD`, `INTENSITY_THRESHOLD`, and `MATCH_THRESHOLD` according to your specific environment and sensor placement.
 - The system's accuracy depends on the correct calibration and placement of the sound sensor.
-- This system was developed as part of the [Smart Cradle project](https://github.com/JeongJongMun/IOT-SmartBabyCradle), specifically to implement the baby crying detection logic used in the project. 
+- This system was developed as part of the [Smart Cradle project](https://github.com/JeongJongMun/IOT-SmartBabyCradle), specifically to implement the baby crying detection logic used in the project.
+
+    <img width="469" alt="스크린샷 2023-12-09 오후 7 05 07" src="https://github.com/Wendy-Nam/IoT-BabyCryDetection/assets/142412339/77f8f379-2b44-4040-af08-e7fb850dbb92">
