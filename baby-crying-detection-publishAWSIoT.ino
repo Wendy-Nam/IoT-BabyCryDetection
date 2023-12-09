@@ -28,7 +28,9 @@ const double INTENSITY_THRESHOLD = 2000.0; // Minimum intensity to consider
 const int MATCH_THRESHOLD = 100; // Number of matches within the frequency range to consider as baby crying
 
 int status = WL_IDLE_STATUS;
+int msgCount=0,msgReceived = 0;
 char payload[512];
+char rcvdPayload[512];
 unsigned long preMil = 0;
 const long intMil = 5000; 
 
