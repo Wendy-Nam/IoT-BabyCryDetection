@@ -2,6 +2,13 @@
 
 > Developed as a module for the 'Smart Cradle' IoT Project at KAU in 2023
 
+> **🚨 Experimental**: Noise-sensitive; not suitable for production use without further refinement. AI-based classification is recommended for higher reliability.
+
+> 🚨 아기 울음소리 감지를 위한 **실험용** IoT 프로젝트로, 특정한 경향성은 확인되었으나 주변 환경의 영향을 크게 받아 정확도에 변동이 있을 수 있습니다.
+> 신뢰도 향상을 위해 AI 기반 분류 기법의 도입을 권장합니다.
+
+
+
 ## Overview
 This Arduino-based system, using an ESP32 microcontroller(`DOIT ESP32 Devkit V1`) and a sound sensor (`SZH-EK033`), detects when a baby is crying and communicates the detection status to AWS IoT Core. The system employs advanced sound pattern analysis and frequency analysis to accurately identify a baby's cry.
 
